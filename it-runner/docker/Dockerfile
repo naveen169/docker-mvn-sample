@@ -1,7 +1,7 @@
 FROM java:8
 MAINTAINER roland@jolokia.org
 
-ENV MAVEN_VERSION 3.3.1
+ENV MAVEN_VERSION 3.6.0
 ENV MAVEN_BASE=apache-maven-${MAVEN_VERSION}
 
 ADD cloneAndBuild /cloneAndBuild
