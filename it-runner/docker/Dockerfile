@@ -11,5 +11,5 @@ RUN curl https://www-eu.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-mave
     chmod 755 /cloneAndBuild
 
 CMD ["rhuss/docker-maven-sample","clean","install"] 
-#ENTRYPOINT [ "/cloneAndBuild" ] 
-ENTRYPOINT [ "/bin/bash"]
+ENTRYPOINT [ "/cloneAndBuild" ] 
+#ENTRYPOINT [ "/bin/bash"]
